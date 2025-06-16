@@ -1,0 +1,121 @@
+/* Basic settings for whole page */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+}
+
+html{
+   scroll-behavior: smooth;
+}
+
+/* Heading section */
+.wapper {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.wapper h1 {
+  color: #cc7a00;
+  font-size: 30px;
+}
+
+.wapper p {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Links */
+a {
+  color: seagreen;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Image section */
+figcaption {
+  text-align: center;
+  margin: 30px 0;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #666;
+  font-style: italic;
+}
+
+/* Timeline section */
+#timeLine {
+  background-color: #fff2cc;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#timeLine h2 {
+  color: teal;
+  margin-bottom: 10px;
+}
+
+#timeLine ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+#timeLine li {
+  margin-bottom: 8px;
+}
+
+/* Quotes section */
+#inspirational {
+  background-color: sandybrown;
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+#inspirational h2 {
+  color: oldlace;
+  margin-bottom: 15px;
+}
+
+#inspirational ol {
+  padding-left: 20px;
+}
+
+#inspirational li {
+  margin-bottom: 8px;
+}
+
+blockquote {
+  background-color: darkorange;
+  border-left: 4px solid #cccccc;
+  padding: 10px 15px;
+  margin: 20px 0;
+  font-style: italic;
+}
+
+blockquote em {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  color: #888;
+}
+
+
